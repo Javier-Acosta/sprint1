@@ -1,11 +1,10 @@
 
 import React from "react";
-export default function Header(){
-
+export default function Header(  ){
     
     return (
         <>
-
+{/* 
 <nav className="fixed top-0 left-0 w-full bg-red-900 bg-opacity-30 backdrop-blur-md z-50 transition-all duration-300">
 <div className="flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3">
   
@@ -52,22 +51,78 @@ export default function Header(){
     <li><a href="https://www.github.com" target="_blank" className="inline-block"><i className="bi bi-github text-lg text-white hover:text-sky-100"></i></a></li>
   </ul>
 </div>
-</nav>
+</nav> */}
 
+<header className="py-5 header">
+        <div className="container-xl">
+            <div className="row justify-content-center justify-content-md-between">
+                <div className="col-8 col-md-3">
+                    <a href="index.html">
+                        <img className="img-fluid w-[80px] "  src="./assets/LogoNavbar.png" alt="imagen logo" />
+                    </a>
+                </div>
+                <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
+                    <div 
+                        className="carrito"
+                    >
+                        <img className="img-fluid" src="./public/img/carrito.png" alt="imagen carrito" />
 
-<section className="flex justify-center mt-36 md:mt-20">
-<div className="grid grid-cols-1 md:grid-cols-2">
+                        <div id="carrito" className="bg-white p-3">
+                            <p className="text-center">El carrito esta vacio</p>
+                            <table className="w-100 table">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img className="img-fluid" src="./public/img/guitarra_02.jpg" alt="imagen guitarra" />
+                                        </td>
+                                        <td>SRV</td>
+                                        <td className="fw-bold">
+                                                $299
+                                        </td>
+                                        <td className="flex align-items-start gap-4">
+                                            <button
+                                                type="button"
+                                                className="btn btn-dark"
+                                            >
+                                                -
+                                            </button>
+                                                1
+                                            <button
+                                                type="button"
+                                                className="btn btn-dark"
+                                            >
+                                                +
+                                            </button>
+                                        </td>
+                                        <td>
+                                            <button
+                                                className="btn btn-danger"
+                                                type="button"
+                                            >
+                                                X
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-  
-
-  
-  <div className="p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36 mt-[-100px] " >
-    <img src="./assets/Personaje-BC7DTXUi.png" alt="Personaje de juego"></img></div>
-
-  
-  </div>
-
-</section> 
+                            <p className="text-end">Total pagar: <span className="fw-bold">$899</span></p>
+                            <button className="btn btn-dark w-100 mt-3 p-2">Vaciar Carrito</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
         </>
     )
 }
