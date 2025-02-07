@@ -1,7 +1,10 @@
+
+
+
 import React from 'react';
 export default function Comentario (props){
 
-console.log();
+console.log(this.props.first);
 
   return (
 

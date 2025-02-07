@@ -1,11 +1,14 @@
 import { React, useState } from 'react'
 
-import Header from './components/Header'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// import Header from './components/Header'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 
 import { db } from './db'
-import Comentario from './components/Comentario'
+// import Comentario from './components/Comentario'
+import ProfileCards from './components/ProfileCards'
+import ProfileSection from './components/ProfileSection'
 
 function App() {
   const [data, setData] = useState(db)
@@ -14,7 +17,9 @@ function App() {
 
   return (
     <>
-   <Header/>
+    <ProfileCards/>
+    <ProfileSection/>
+   
 <main>
 
     <div className="p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36">
