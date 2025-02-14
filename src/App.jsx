@@ -10,6 +10,7 @@ import Comentario from './components/Comentario'
 import ProfileCards from './components/ProfileCards'
 import ProfileSection from './components/ProfileSection'
 import Footer from './components/Footer'
+import NavBar from './components/NavBar'
 
 function App() {
   const [data, setData] = useState(db)
@@ -18,8 +19,8 @@ function App() {
 
   return (
     <>
-    
-    <Header/>
+    <NavBar/>
+    {/* <Header/> */}
    <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>
 
