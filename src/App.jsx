@@ -23,6 +23,7 @@ function App() {
     <>
     <NavBar/>
     <Body/>
+    <ProfileCards/>
     {/* <ExampleMotion/> */}
     {/* <Header/> */}
    <main className="container-xl mt-5">
