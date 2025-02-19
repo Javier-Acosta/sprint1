@@ -60,14 +60,14 @@ console.log( isOpen)
   return (
 
 
-    <nav className='w-full bg-gray-900 bg-opacity-30'>
+    <nav className='w-full bg-gray-800 bg-opacity-30'>
 {/* VISTA DESCKTOP  */}
 
 <div className='flex justify-between items-center sm:px-12 sm:py-6  px-6 py-3'>
     {/* LOGO  */}
 <div className='flex items-center gap-2'>
-<img src="./assets/LogoNavbar.png" alt="Logo" className='w-[60px]' />
-<p className='text-white font-bold font-size-3xl'>ARG</p>
+<img src="/assets/logo.jpg" alt="Logo" className='w-[60px]' />
+<p className='text-white font-bold font-size-3xl'>Centro Óptico Catamarca</p>
 
 
 </div>
