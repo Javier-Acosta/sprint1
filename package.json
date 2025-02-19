@@ -12,8 +12,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.7",
     "bootstrap-icons": "^1.11.3",
-    "framer-motion": "^12.4.4",
-    "motion": "^12.4.4",
+    "framer-motion": "^12.4.5",
+    "motion": "^12.4.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.7"
