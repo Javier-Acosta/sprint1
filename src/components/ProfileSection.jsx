@@ -4,7 +4,7 @@ const ProfileSection = () => {
   console.log();
   return (
     <div>
-      <header className="py-5 header">
+      {/* <header className="py-5 header">
         <div className="container-xl">
             <div className="row justify-content-center justify-content-md-between">
                 <div className="col-8 col-md-3">
@@ -73,7 +73,7 @@ const ProfileSection = () => {
                 </nav>
             </div>
         </div>
-    </header>
+    </header> */}
     </div>
   );
 }
