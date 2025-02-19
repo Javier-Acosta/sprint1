@@ -11,6 +11,7 @@ import ProfileCards from './components/ProfileCards'
 import ProfileSection from './components/ProfileSection'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
+import Body from './components/Body'
 
 function App() {
   const [data, setData] = useState(db)
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
     <NavBar/>
+    <Body/>
     {/* <Header/> */}
    <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>

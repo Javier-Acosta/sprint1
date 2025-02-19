@@ -4,6 +4,7 @@ export default function Header(  ){
     
     return (
         <>
+        <div>hola</div>
 {/* 
 <nav className="fixed top-0 left-0 w-full bg-red-900 bg-opacity-30 backdrop-blur-md z-50 transition-all duration-300">
 <div className="flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3">

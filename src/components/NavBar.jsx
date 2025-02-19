@@ -52,7 +52,7 @@ console.log( isOpen)
         {
             id:2,
             title: "GitHub", 
-            link: "https:/www.github.com",
+            link: "https://github.com/Javier-Acosta",
             icon: "bi bi-github",
         },
     ]
@@ -134,11 +134,11 @@ console.log( isOpen)
         rel='noopener noreferrer' // para no trackear desde que pagina venimos
         className=' inline-block transition-transform duration-300 transform hover:scale-125'
          >
-            <li
-                className={`${link.icon} sm:text-2xl  text-lg text-white transition-all duration-300  hover:text-amber-300`}
+            <i
+                className={`${link.icon} sm:text-2xl  text-lg text-white transition-all duration-300  hover:text-yellow-500`}
             >
 
-            </li>
+            </i>
          </a>
       
   </li>
