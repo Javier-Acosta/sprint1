@@ -11,7 +11,7 @@ export const db = [
         id: 2,
         name: 'Lentes de Sol Ray-Ban ',
         image: 'https://www.masvision.com.ar/cdn/shop/products/0RB3025__001_58_000A_8_1_669x335.jpg',
-        description: 'Unisex, Dorado, Verde Oscuro Uniforme, Metal',
+        description: 'Unisex, Dorado, Verde Oscuro Uniforme, Metal, Se destaca por su durabilidad, flexibilidad y su poco peso.',
         price: 322000,
     },
     {

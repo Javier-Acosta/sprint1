@@ -10,7 +10,7 @@ const Body = () => {
     <div className='flex justify-center mt-36 md:mt-20'>
     
     <motion.div 
-     className='p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36 '
+     className='p-10 sm:p-10 md:p-15 lg:p-30 xl:p-1 '
     variants={animateForLogo('right')}
     initial='initialLogo'
     animate={['entryAnimate', 'animateFloating']}
@@ -19,7 +19,7 @@ const Body = () => {
 
     <img 
     src={terjeta}
-    className='w-150'
+    className='w-80'
      />
 
     </motion.div>
