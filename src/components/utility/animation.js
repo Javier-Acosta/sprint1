@@ -1,7 +1,7 @@
-export  const animateForLogo=()=>{
+export  const animateForLogo=(direction= 'left')=>{
     return {
       initialLogo:{
-        x:-100,
+        x:direction === 'left' ? -100 : 100,
         opacity:0
         
         // slideInFromSide("right",0.5)

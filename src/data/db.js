@@ -1,17 +1,18 @@
 export const db = [
     {
+
         id: 1,
-        name: 'Lukather',
-        image: 'guitarra_01',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 299,
+        name: 'Lentes de Sol Space',
+        image: 'https://www.onasaez.com/wp-content/uploads/2025/02/SPACE-NEGRO-02-scaled-1.jpg',
+        description: 'Lentes de sol unisex polarizados, Fabricados en policarbonato, uno de los polímeros más avanzados y bisagras de metal, Se destaca por su durabilidad, flexibilidad y su poco peso.',
+        price: 78000,
     },
     {
         id: 2,
-        name: 'SRV',
-        image: 'guitarra_02',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 349,
+        name: 'Lentes de Sol Ray-Ban ',
+        image: 'https://www.masvision.com.ar/cdn/shop/products/0RB3025__001_58_000A_8_1_669x335.jpg',
+        description: 'Unisex, Dorado, Verde Oscuro Uniforme, Metal',
+        price: 322000,
     },
     {
         id: 3,

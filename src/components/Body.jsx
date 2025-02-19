@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { animateForLogo } from './utility/animation'
-import logo from '../assets/logo.jpg'
+import terjeta from '../assets/tarjeta.png'
 
 const Body = () => {
 
@@ -11,15 +11,15 @@ const Body = () => {
     
     <motion.div 
      className='p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36 '
-    variants={animateForLogo()}
+    variants={animateForLogo('right')}
     initial='initialLogo'
     animate={['entryAnimate', 'animateFloating']}
      >
     
 
     <img 
-    src={logo}
-    className='w-46'
+    src={terjeta}
+    className='w-150'
      />
 
     </motion.div>

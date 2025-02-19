@@ -23,7 +23,7 @@ function App() {
     <>
     <NavBar/>
     <Body/>
-    <ExampleMotion/>
+    {/* <ExampleMotion/> */}
     {/* <Header/> */}
    <main className="container-xl mt-5">
         <h2 className="text-center">Nueva Colección 2025</h2>
